@@ -5,6 +5,10 @@ import cz.czechitas.java.ukol01.engine.*;
 public class HlavniProgram {
     Turtle zofka = new Turtle();
     public void start() {
+        nakresliPrasatko();
+        }
+
+    public void nakresliPrasatko() {
 
         zofka.turnLeft(90);
 
@@ -24,9 +28,6 @@ public class HlavniProgram {
         zofka.turnRight(90);
 
         nakresliNohy();
-
-
-        //TODO implementace domácího úkolu
     }
 
     public void nakresliDum() {
